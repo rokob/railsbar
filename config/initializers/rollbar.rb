@@ -45,7 +45,7 @@ Rollbar.configure do |config|
 
   # Enable delayed reporting (using Sidekiq)
   config.use_sidekiq
-  config.sidekiq_threshold = 3
+  config.sidekiq_threshold = 2
   # You can supply custom Sidekiq options:
   # config.use_sidekiq 'queue' => 'default'
 

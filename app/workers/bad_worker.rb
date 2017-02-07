@@ -1,6 +1,6 @@
 class BadWorker
   include Sidekiq::Worker
-  sidekiq_options retry: false
+  sidekiq_options retry: 3
 
   def perform(user_id)
     Rollbar.scope!(person: {id: user_id})
