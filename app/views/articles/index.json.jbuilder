@@ -1,1 +1,1 @@
-json.array! @articles, :id, :title
+json.array! @articles, :id, :title, :author_id

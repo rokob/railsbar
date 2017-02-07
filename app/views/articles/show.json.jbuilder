@@ -1,1 +1,1 @@
-json.(@article, :id, :title, :text)
+json.(@article, :id, :title, :text, :author_id)
